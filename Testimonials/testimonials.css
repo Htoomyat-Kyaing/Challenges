@@ -79,11 +79,14 @@ body {
 .bd-grayish-blue {
   border: 2px solid hsl(217, 19%, 35%);
 }
-
 .bd-white {
   border: 2px solid hsl(0, 0%, 100%);
 }
-
 .bd-blackish-blue {
   border: 2px solid hsl(219, 29%, 14%);
+}
+
+.preview {
+  font-size: large;
+  line-height: 1.3;
 }
