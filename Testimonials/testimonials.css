@@ -38,6 +38,9 @@ body {
 .card--profile > h5 {
   opacity: 50%;
 }
+.card--review > p {
+  padding-top: 20px;
+}
 .card--review > p > q {
   opacity: 70%;
 }
