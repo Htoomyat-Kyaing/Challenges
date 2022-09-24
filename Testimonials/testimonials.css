@@ -11,6 +11,7 @@ body {
   font-weight: 500;
 }
 
+/* container */
 .container__grid {
   max-width: 1440px;
   margin: 100px 0px;
@@ -20,6 +21,15 @@ body {
   align-items: flex-start; /* use this if you want to make each card with unique size */
   gap: 20px;
   color: #edf2f8;
+}
+@media (max-width: 650px) {
+  .container__grid {
+    margin: 50px 0px;
+    padding: 0px 25px;
+    display: flex;
+    flex-direction: column;
+    color: #edf2f8;
+  }
 }
 
 /* card */
