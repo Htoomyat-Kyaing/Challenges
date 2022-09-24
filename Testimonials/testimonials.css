@@ -13,10 +13,12 @@ body {
 
 .container__grid {
   max-width: 1440px;
-  margin: 100px 50px;
+  max-height: 100vh;
+  margin: 100px 0px;
+  padding: 0px 75px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  align-items: flex-start;
+  align-items: flex-start; /* use this if you want to make each card with unique size */
   gap: 20px;
   color: #edf2f8;
 }
@@ -72,7 +74,11 @@ body {
 .bg-blackish-blue {
   background-color: hsl(219, 29%, 14%);
 }
-
+.bg-quote {
+  background-image: url("/Testimonials/images/bg-pattern-quotation.svg");
+  background-repeat: no-repeat;
+  background-position-x: 80%;
+}
 .bd-purple {
   border: 2px solid hsl(263, 55%, 52%);
 }
@@ -85,7 +91,6 @@ body {
 .bd-blackish-blue {
   border: 2px solid hsl(219, 29%, 14%);
 }
-
 .preview {
   font-size: large;
   line-height: 1.3;
