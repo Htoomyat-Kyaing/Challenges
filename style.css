@@ -92,7 +92,7 @@ blockquote p::after {
   background-color: hsl(219, 29%, 14%);
 }
 .bg-quote {
-  background-image: url("/Testimonials/images/bg-pattern-quotation.svg");
+  background-image: url("/images/bg-pattern-quotation.svg");
   background-repeat: no-repeat;
   background-position-x: 80%;
 }
