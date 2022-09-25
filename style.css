@@ -65,8 +65,11 @@ body {
 .card--review > p {
   padding-top: 20px;
 }
-.card--review > p > q {
-  opacity: 70%;
+blockquote p::before {
+  content: "\201C";
+}
+blockquote p::after {
+  content: "\201D";
 }
 
 /* utility classes */
